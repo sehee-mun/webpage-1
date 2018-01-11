@@ -1,0 +1,332 @@
+html{
+    font-family: "helvetica neue","Arial","sans-serif";
+}
+body{
+    background-color: white;
+    margin: 0;
+    font-family: "helvetica neue","Arial","sans-serif";
+}
+p{
+    color:#5d6660;
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+
+header{
+    height: 80px;
+    background-color: white;
+}
+
+#header-container{
+    width:75%;
+    /*always have to put a width, if not it will be put automatically to 100%*/
+    margin: auto;/*will create equal margins all sides*/
+    
+}
+
+
+.col-3{
+    width:33%;
+    float: left;
+}
+
+.logo{
+    padding-top: 30px;
+}
+
+
+.menu{
+    margin-top: 32px; 
+}
+
+.center-input{
+    text-align: center;
+}
+
+.menu li{
+    list-style-type: none;
+    display: inline;
+    font-size: .85em;
+    color:#8e8e8e;
+    padding-right: 30px;
+}
+
+.getStartedBtn{
+    background-color: #6dc77a;
+    border-radius: 28px;
+    -moz-border-radius:28px;
+    -webkit-border-radius:28px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 26px;
+    margin-top:20px;
+    display: inline-block;
+    font-size: 17px;
+    float:right;
+}
+.getStartedBtn:hover{
+    background-color: #5cbf2a;   
+}
+
+#top-section-main{
+    background-image: url(Images/friends.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    height: 740px;
+    border: none;
+}
+#top-section-content{
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+#top-section-content h1{
+    font-size: 4em;
+    font-weight: 100;
+    color:white;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 100px;
+    margin-bottom: 15px;
+
+}
+#top-section-content p{
+    font-size: 1.3em;
+    font-weight: 300;
+    color:white;
+    text-align: center;
+    margin-top: 0;
+}
+
+.play-button{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 50px 0 110px 0;
+    
+}
+
+.main-form h6{
+     font-family: sans-serif;
+    font-size: .9em;
+    font-weight:100;
+    color:white;
+    text-align: center;
+}
+.main-form input{
+    margin:0;
+    width:30%;
+    height: 40px;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-left: 15px;
+    font-weight: 100;
+    border:none;
+}
+
+.main-form button{
+    width:30%;
+    height: 43px;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-left: 13px;
+    font-weight: 100;
+    background-color: #6dc77a;
+    color: white;
+    border:none;
+}
+.main-form button:hover{
+    background-color: #5cbf2a;   
+}
+
+#feature-section{
+    padding-top: 100px;
+    
+}
+.feature-section-title{
+    width:70%;
+    text-align: center;
+    font-weight: 200;
+    line-height: 1.5em;
+    margin: auto;
+}
+
+.feature-content{
+    margin:auto;
+    width:80%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+
+.feature-content .col-3 img{
+    width:100%;
+}
+.feature-content .col-3 p{
+    font-size: .9em;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.feature-content .col-3{
+   padding: 10px;
+    width:30%;
+}
+.col-2{
+    float:left;
+    width:48%;
+}
+#showcase1-container{
+    padding-top: 60px;
+    background-color: #f6f8fa;
+    width: 100%;
+    clear: both;
+}
+.showcase{
+    width:80%;
+    margin: auto;
+    overflow: auto;/*to let the color pass the next layer*/
+}
+
+.showcase1-pic{
+    width:100%;
+}
+.feature-text{
+    padding-top: 300px;
+    padding-left: 50px;
+}
+.section-title{
+    width:70%;
+    margin: auto;
+    font-weight: 200;
+    line-height: 1.5em;
+}
+.section-left{
+    width:70%;
+    padding: 20px 10px 10px 10px;
+    margin:auto;
+}
+#showcase2-container{
+    padding-top: 60px;
+    background-color: white;
+    width: 100%;
+    clear: both;
+}
+.col-1{
+    width: 80%;
+    margin: auto;
+}
+
+
+#call-to-action{
+    background-image: url(Images/darkdesk.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding-bottom: 45px;
+    
+}
+.action-title{
+    font-size:4em;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 100px;
+}
+.col-1 p{
+    font-size: 1.6em;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 100px;
+}
+.signupBTN{
+    background-color: #6dc77a;
+    color: white;
+    font-size: 1em;
+    font-weight: 200;
+    text-decoration: none;
+    padding: 30px 90px;
+}
+    /*Para cambiar el color cuando se pasa el mouse sobre el boton*/
+.signupBTN:hover{
+    background-color: #5cbf2a;       
+}
+.signupform{
+    background-color: #f6f8fa;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    padding:0px 50px 50px 50px;
+}
+.signupform h6{
+    color: black;
+    padding-top: 15px;
+    font-size: .9em;
+    text-align: center;
+}
+.top-margin{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+input{
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    border: none;
+    margin-top: 15px;
+}
+button{
+    width: 100%;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    margin: 0;
+    background-color: #6dc77a;
+    color:white;
+    border: none;
+    margin-top: 15px;
+}
+button:hover{
+    background-color: #5cbf2a;   
+}
+footer{
+    background-color: black;
+    clear: both; /*Cuando la imagen pasa a un sitio que no le fue asignado... usamos esto para que vuelva a la posicion que fue asignada (antes estaba encima de una seccion)*/
+    height: 500px;
+    background-image: url(Images/footerbg.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.social-footer{
+    width: 33.33%;
+    float: left;
+    height: 40%;
+}
+.social-footer:hover{
+    background-color: black;
+    opacity: .5;
+    
+}
+.center{
+    width:50px;
+    margin: auto;
+    padding-top: 60px;
+    
+}
+.copyright{
+    color: white;
+    font-size: .9em;
+    text-align: center;/*hice esto y no se alineo... entonces tenia q ponerlo en modo bloque... abajo*/
+    display: block;
+    padding-top: 15px;
+}
